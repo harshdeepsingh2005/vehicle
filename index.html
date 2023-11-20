@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles_home_page.css" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .scrolling-list {
+            height: 200px;
+            overflow: hidden;
+        }
+        .news-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            animation: scroll 20s linear infinite;
+        }
+        @keyframes scroll {
+            0% {
+                transform: translateY(0);
+            }
+            25% {
+                transform: translateY(-25%);
+            }
+            50% {
+                transform: translateY(-50%);
+            }
+            75% {
+                transform: translateY(-75%);
+            }
+            100% {
+                transform: translateY(-100%);
+            }
+        }
+    </style>
+
+
+
+</head>
+<body style="margin:1em 0;">
+    <section class="nav_bar" >
+        <div class="nav_right" >
+            <a href="home_page.html"><h3>Home</h3></a>
+            <h3><u>Tool</u>
+                <select accesskey="target">
+                    <option></option>
+                    <option value="calculator.html">Range Calculator</option>
+                    <option value="timer.html">Charging Timer</option>
+                </select>
+            </h3>
+            <a href="newsletter.html"><h3>NewsLetter</h3></a>
+        </div>
+        <div class="nav_left" >
+            <h3 style="color: aliceblue;"><a href="contact_us.html">Contact Us</a></h3>
+            <img class="user" src="user.png" >
+            <select accesskey="target">
+                <option></option>
+                <option value="log_in.html">log in </option>
+                <option value="sign_in.html">sign in</option>
+            </select>
+        </div>
+    </section>
+    <section class="main_container">
+        
+        <div class="sub-division">
+            <div class="model" >
+            <!-- <img src="tesla.jpg" alt="car" class="car" > -->
+            </div>
+            <div class="specifics">
+                <h3>specs</h3>
+                <span>
+                    <ul type="circle">
+                        <li>0-60 mph in <b>3.1s</b></li><br>
+                        <li><b>range (EPA est.):</b> 333mi</li><br>
+                        <li><b>AWD</b> Dual Motor</li><br>
+                        <li><b>5-star NHTSA</b> safety rating
+                        </li><br>
+                        <li>Interior:
+                            <ol type="i">
+                                <li>15-inch Touchscreen</li>
+                                <li>Spacious Cabin</li>
+                                <li>Storage and charging</li>
+                                <li>Max Legroom</li>
+                            </ol>
+                        </li>
+                    </ul>
+                </span>
+            </div>
+        </div>
+        
+        <div class="sub-division">
+
+            <div class="calculator">
+                <h3>calculator</h3>
+                <img src="range calculator1.avif" width="50%" height="50%"><br><br>
+                <a href="calculator.html"><input type="button" value="Calculator" class="Cal_button"></a>
+            </div>
+            <div class="charging">
+                <h3>charging</h3>
+                <img src="clock.jpeg" width="50%" height="60%" style="margin-bottom: 1em;overflow: hidden;"><br><br>
+                <a href="timer.html"><input type="button" value="Calculator" class="Cal_button"></a>
+            </div><br>
+        </div>    
+
+        
+        <div class="News">
+            <h3>news & updates</h3>
+                <div class="scrolling-list">
+        <ul type="square" class="news-list">
+            <li><br><br><br></li>
+            <li>Increased Investment:<br> Many automakers and technology companies were investing heavily in the development of electric vehicles. This includes research and development in battery technology, which is a crucial aspect of EVs.</li><br>
+            <li>Expanding Model Range:<br> Major automotive companies were expanding their electric vehicle offerings, with more models catering to different market segments. This trend was helping to make electric vehicles more accessible to a broader audience.</li><br>
+            <li>Advancements in Battery Technology: <br>Ongoing research in battery technology aimed at increasing energy density, reducing costs, and improving charging times was a focal point. These advancements were crucial for enhancing the overall performance and appeal of electric vehicles.</li><br>
+            <li>Government Initiatives: <br>Many governments around the world were introducing policies to encourage the adoption of electric vehicles. This included incentives for consumers, subsidies for manufacturers, and the development of charging infrastructure.</li><br>
+            <li>Consumer Awareness: <br> environmental awareness and concerns about climate change were driving increased interest in sustainable transportation options, contributing to the rise in popularity of electric vehicles.</li>
+        </ul>
+    </div>
+        </div>
+    </section><hr>
+    <footer>
+        
+        <div style="display: flex;color: aliceblue;background-color: rgb(41, 41, 40);">
+            <!-- <h2 style="text-align: center;color: beige;">Thank You</h2><br> -->
+            <div style="margin-left: 30%;" >
+                <h3>Contact Us at:</h3>
+                <ul>    
+                    
+                    <li><b>customer-care no. : </b>9xxx80xx1x</li>
+                    <li><b>Toll-free: </b>8xxxxxxx55</li>
+                    <li><b>email:</b> ev_support@yahoo.in OR abc@gmail.com </li>
+                    
+                </ul>
+                
+            </div>
+            <div>
+                <h3>Support Us at:</h3>
+                <ul>
+                    <li><b>insta: </b>the_step-header</li>
+                    <li><b>facebook:</b> TheStepHeader</li>
+                    <li><b><a href="https://play.google.com/store/apps">playstore</a> &nbsp;&nbsp;&nbsp; <a href="https://www.apple.com/in/app-store">apple store</a></b></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
